@@ -18,12 +18,20 @@ h2 {
     letter-spacing: -3px;
 }
 
+h3 {
+    color: rgb(29, 83, 83);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 a {
     font-family: Montserrat;
     text-decoration: none;
     color: rgb(43, 53, 53);
 }
 
+a:hover{
+    color: rgb(95, 179, 179);
+}
 
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -32,13 +40,80 @@ p {
 
 em{
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(29, 83, 83);
+    
+    
+}
+
+
+ul {
+    /* display: center; */
 }
 
 ul li{
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
-section ol {
+img {
+    border-radius: 5px;
+}
 
+footer {
+    background-color: rgb(29, 83, 83);
+    padding: 3em;
+}
+
+/* Alineando las opciones de servicios */
+
+.tit-trabajemos{
+    position: absolute ;
+}
+
+h3 {
+    /*display: flex;*/
+    /*align-items: flex-start;*/
+}
+
+.opciones p {
+    display: flex;
+    align-items: flex-end;
+}
+
+#trabajemos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.opciones {
+    display: flex;
+    display: inline-block;
+    padding: 3em;
+    
+    /*margin: 2%;*/
+    
+}
+
+.PRUEBA{
+    background-color: red;
+}
+
+/*  - - - - - - - - - - - - - - - - - - - -  */
+.copy {
+    display: block;
+    color: rgb(237, 246, 246);
+    text-align: center;
+}
+
+
+
+
+.opciones p{
+    /*width: 50%;
+    align-items: baseline;*/
+    
+}
+
+.image {
+    width: 300px;
+    height: 200px;
 }
