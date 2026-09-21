@@ -83,6 +83,39 @@ h3 {
     display: flex;
     justify-content: space-between;
 }
+.carta {
+    background-color: rgb(90, 107, 107);
+    padding: 3em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(43, 53, 53);
+    display: flex;
+}
+
+.blok-carta{
+    justify-content: space-around;
+    padding-left: 5em;
+}
+
+.title-card{
+    color: rgb(250, 235, 215);
+}
+
+.a-card{
+    color: rgb(250, 235, 215);
+}
+.a-card:hover{
+    color: rgb(95, 179, 179);
+}
+
+.text-carta{
+    color: rgb(250, 252, 252);
+}
+
+.img-carta {
+    width: 400px;
+    height: 250px;
+   
+}
 
 .opciones {
     display: flex;
