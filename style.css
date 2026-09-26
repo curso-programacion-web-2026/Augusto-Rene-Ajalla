@@ -204,6 +204,21 @@ h3 {
 }
 
 /*  - - - - - - - - - - - - - - - - - - - -  */
+
+/* Estilo de tarjetas*/
+.tarjetas {
+    display: flex;
+    justify-content: space-evenly;
+}
+article {
+    background-color: rgb(250, 252, 252);
+    margin: 1em;
+    padding: 3em;
+    border-radius: 3px;
+    border: 1px solid rgb(31, 104, 104);
+
+}
+
 .copy {
     display: block;
     color: rgb(237, 246, 246);
