@@ -3,13 +3,9 @@ body {
     background-color: aliceblue;
 }
 
-h1{
-    font-family: Tangerine;
-    font-size: 55px;
-    color: rgb(90, 107, 107);
-    text-align: center;
-    text-shadow: 2px 2px 7px rgb(047, 132, 132);
-}
+
+
+
 
 h2 {
     font-family: Montserrat;
@@ -55,6 +51,57 @@ footer {
     background-color: rgb(29, 83, 83);
     padding: 3em;
 }
+
+/* Menù de navegación */
+nav {
+    background-color: rgb(43, 53, 53);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    font-family: Tangerine;
+    font-size: 55px;
+    color: rgb(250, 252, 252);
+    text-align: center;
+    /*text-shadow: 2px 2px 7px rgb(047, 132, 132);*/
+}
+
+.menu-list {
+    color: rgb(250, 252, 252);
+}
+
+header {
+    background-color: rgb(43, 53, 53);
+    padding: 1px;
+}
+
+/* Primer sección de la web*/
+
+.img-principal {
+    position:relative
+    
+}
+
+.texto-img {
+    position: absolute;
+    right: 20%;
+    top: 670px;
+    color: rgb(237, 255, 255);
+    text-shadow: 1px 1px 6px rgb(43, 53, 53);
+    font-family: Montserrat;
+    font-size: 40px;
+    /*color: rgb(047, 132, 132);*/
+    letter-spacing: -3px;
+    
+}
+
+#inicio {
+    text-align: center;
+}
+
 
 /* Alineando las opciones de servicios */
 
@@ -122,6 +169,11 @@ h3 {
 .image {
     width: 300px;
     height: 200px;
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.1);
 }
 
 .PRUEBA{
