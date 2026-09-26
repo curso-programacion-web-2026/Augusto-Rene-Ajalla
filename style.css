@@ -52,6 +52,29 @@ footer {
     padding: 3em;
 }
 
+/* secciones de la web */
+
+#historia{
+    padding: 5em;
+    background-color: rgb(29, 83, 83);
+    border: 2px solid rgb(43, 53, 53);
+    border-radius: 3px;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#historia p {
+    color: rgb(237, 246, 246);
+}
+
+#historia em {
+    color: rgb(237, 246, 246);
+}
+
+#historia a {
+    color: rgb(68, 173, 173);
+}
+
 /* Menù de navegación */
 nav {
     background-color: rgb(43, 53, 53);
