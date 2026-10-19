@@ -27,7 +27,8 @@ a {
 }
 
 a:hover{
-    color: rgb(95, 179, 179);
+    /*color: rgb(95, 179, 179);*/
+    
 }
 
 p {
@@ -57,8 +58,9 @@ footer {
 
 #historia{
     padding: 5em;
+    padding-bottom: 2em;
     background-color: rgb(29, 83, 83);
-    border: 2px solid rgb(43, 53, 53);
+    border: 2px solid rgb(047, 132, 132);
     border-radius: 10px 30px 0 0;
     border-top-right-radius: 3em;
     border-top-left-radius: 3em;
@@ -83,12 +85,60 @@ footer {
     color: rgb(68, 173, 173);
 }
 
+#historia img{
+    width: 30em;
+    /*filter: blur(10px) grayscale(50%);*/
+}
+
+.info-extra{
+    width: 650px;
+}
+
+.oculto{
+    display: none;
+    
+}
+
+.estilo-oculto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /*padding: 26px 0px;*/
+    padding-top: 24px;
+    gap: 8em;
+}
+
+.btn-ver-mas{
+    display: flex;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: rgb(047, 132, 132);
+    border: none;
+    margin-top: 30px;
+    padding: 5px;
+    letter-spacing: -1px;
+    border-radius: 5px;
+}
+.btn-dos{
+    display: flex;
+    font-family: Montserrat;
+    font-size: 20px;
+    background-color: rgb(29, 83, 83);
+    color: rgb(90, 193, 193);
+    border: none;
+    margin-left: 120px;
+    margin-top: 0px;
+    padding: 5px;
+    letter-spacing: -1px;
+    border-radius: 5px;
+}
+
 /* Menù de navegación */
 
 #navegador{
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(43, 53, 53);
+    justify-content: space-around;
+    background-color: rgb(29, 83, 83);
     align-items: center;
 }
 
@@ -100,16 +150,23 @@ header {
 }
 
 nav {
-    background-color: rgb(43, 53, 53);
-    margin: 20px;
-
+    
+    margin: 10px;
+    gap: 3em;
     /*text-align: center;*/
-    /*display: flex;*/
+    display: flex;
     /*justify-content: flex-end;*/
     
 }
-nav a  {
-    padding: 3em;
+
+.menu-list {
+    /*background-color: rgb(90, 107, 107);*/
+    padding: 1%;
+    white-space: nowrap;
+}
+.menu-list:hover{
+    color: rgb(95, 179, 179);
+    
 }
 
 
@@ -168,9 +225,15 @@ h1{
     z-index: 1;
 }
 
-
 /* Alineando las opciones de servicios */
-
+#trabajemos{
+    
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10em;
+    margin-right: 10em;*/
+}
 .tit-trabajemos{
      font-size: 60px;
      background: linear-gradient(to right,rgb(047, 132, 132),rgb(226, 255, 255));
@@ -183,14 +246,31 @@ h3 {
     /*align-items: flex-start;*/
 }
 
-.opciones p {
-    /*display: flex;
-    align-items: flex-end;*/
-}
 
-#opciones{
+/* Recurso - social media */
+.visual-media{
+    /*background-color: brown;*/
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /*margin-left: 10em;
+    margin-right: 10em;*/
+    padding: 10em;
+}
+.g-frase{
+    font-style: italic;
+}
+.visual-media h2{
+    font-size: 100px;
+    line-height: 0.8;
+}
+.visual-media img{
+    width: 20rem;
+    border-radius: 8px;
+    /*margin-right: 150px;*/
+    /*filter: sepia(80%);*/
+    filter: blur(3px) grayscale(50%);
 }
 
 /* APLICACIÓN DE ESTILOS A UNA TARJETA/CARTA */
@@ -220,12 +300,14 @@ h3 {
     display: inline-flex;
     align-items: flex-end;
     /*height: 50px;*/
+    padding: 5px;
     margin-top: 5%;
 }
 .a-card:hover{
-    color: rgb(43, 53, 53);
-    background-color: rgb(67, 158, 158);
+    color: rgb(47, 132, 132);
+    background-color: rgb(98, 193, 193);
     padding: 5px;
+    border-radius:4px;
 }
 
 .text-carta{
@@ -241,15 +323,30 @@ h3 {
 
 .texto-trabajemos{
     padding: 1px;
-    margin-left: 3em;
+    margin-left: 8em;
     /*letter-spacing: -20px;*/
     
 }
+.opciones-cont{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.opciones-dos{
+    /*display: flex;
+    justify-content: flex-start;*/
+    margin-top: 0px;
+    margin-left: 5em;
+    /*gap: 90em;*/
+    padding: 0px 20px;
+}
 
 .opciones {
-    display: flex;
     display: inline-block;
     padding: 3em;
+    gap: 3em;
+    justify-content: center;
     /*margin: 2%;*/
 }
 
@@ -298,15 +395,34 @@ article {
 
 #contacto{
     padding: 5em 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contacto h2{
+    /*padding: 2em;*/
 }
 
 #contacto ol {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5em;
 }
 
 i {
     color: rgb(47, 132, 132);
     margin-right: 5px;
+}
+
+/*  - - - - - - - - - - - - - - - - - - - -  */
+
+/* Sector de soporte */
+
+#soporte{
+    text-align: center;
+    /*background-color: blue;*/
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
